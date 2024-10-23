@@ -1,0 +1,72 @@
+.contact-form {
+  padding: 60px 20px;
+  background-color: #1a1a2e;
+  color: #fff;
+  text-align: center;
+}
+.contact-form h2 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  color: #ff1744;
+  text-shadow: 2px 2px 6px rgba(255, 23, 68, 0.7);
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #fbc02d;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #2d2d44;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+.form-group textarea {
+  height: 150px;
+  resize: none;
+}
+.submit-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #ff1744;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.submit-btn:hover {
+  background-color: #d50000;
+}
+.contact-form.light {
+  background-color: #f9f9f9;
+  color: #333;
+}
+.form-group.light input,
+.form-group.light textarea {
+  background-color: #fff;
+  color: #333;
+}
+.contact-form.light h2 {
+  color: #ff1744;
+}
+.form-group.light label {
+  color: #333;
+}
+.submit-btn.light {
+  background-color: #ff1744;
+  color: #fff;
+}
+.submit-btn.light:hover {
+  background-color: #d50000;
+}

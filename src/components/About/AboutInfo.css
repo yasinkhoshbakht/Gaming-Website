@@ -1,0 +1,29 @@
+.about-info {
+  padding: 60px 20px;
+  background-color: #1a1a2e;
+  color: #fff;
+  text-align: center;
+}
+.about-info h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #ff1744;
+  text-shadow: 2px 2px 6px rgba(255, 23, 68, 0.7);
+}
+.about-info p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: #ccc;
+}
+.about-info.light {
+  background-color: #f9f9f9;
+  color: #333;
+}
+.about-info.light h2 {
+  color: #ff1744;
+}
+.about-info.light p {
+  color: #666;
+}

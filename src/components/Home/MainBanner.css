@@ -1,0 +1,82 @@
+.main-banner {
+  height: 100vh;
+  background: url("https://example.com/your-game-banner-image.jpg") no-repeat
+    center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+}
+
+.banner-content {
+  z-index: 2;
+  max-width: 800px;
+}
+
+.main-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+.banner-content h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ff1744;
+  text-shadow: 3px 3px 10px rgba(255, 23, 68, 0.8);
+}
+.banner-content h1 span {
+  color: #fbc02d;
+}
+.banner-content p {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: #f0f0f0;
+}
+.banner-buttons a {
+  padding: 15px 30px;
+  margin: 10px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.btn-primary {
+  background-color: #ff1744;
+  color: #fff;
+}
+.btn-primary:hover {
+  background-color: #fbc02d;
+  color: #000;
+}
+.btn-secondary {
+  background-color: transparent;
+  border: 2px solid #ff1744;
+  color: #ff1744;
+}
+.btn-secondary:hover {
+  background-color: #ff1744;
+  color: #fff;
+}
+.main-banner.light {
+  background: url("https://example.com/your-light-theme-banner.jpg") no-repeat
+    center center/cover;
+  background-color: #f0f0f0;
+}
+.banner-content.light h1 {
+  color: #333;
+}
+.banner-content.light h1 span {
+  color: #ff1744;
+}
+.banner-content.light p {
+  color: #333;
+}
